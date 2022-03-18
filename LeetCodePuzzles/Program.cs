@@ -1,4 +1,5 @@
 ﻿using LeetCodePuzzles.Question;
+using LeetCodePuzzles.Question.EasyWarmUp;
 using System;
 
 namespace LeetCodePuzzles
@@ -7,7 +8,7 @@ namespace LeetCodePuzzles
     {
         static void Main(string[] args)
         {
-            var question = new TestQuoestion();
+            var question = new TwoSum();
             question.Run();
         }
     }
