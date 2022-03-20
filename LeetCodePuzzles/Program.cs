@@ -9,7 +9,8 @@ namespace LeetCodePuzzles
         static void Main(string[] args)
         {
             //var question = new TwoSum();
-            var question = new PalindromeNumber();
+            //var question = new PalindromeNumber();
+            var question = new RomanToInteger();
             question.Run();
         }
     }
