@@ -15,5 +15,25 @@ namespace LeetCodePuzzles.Helpers.Assert
 
             throw new Exception($"Numbers are not equal. Expected: {expected}, Actual: {actual}");
         }
+
+        public static bool IsTrue(bool condition)
+        {
+            if (condition)
+            {
+                return true;
+            }
+
+            throw new Exception($"Condition: {condition} is not true as expected.");
+        }
+
+        public static bool IsFalse(bool condition)
+        {
+            if (!condition)
+            {
+                return true;
+            }
+
+            throw new Exception($"Condition: {condition} is not false as expected.");
+        }
     }
 }
