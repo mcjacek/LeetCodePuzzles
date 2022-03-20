@@ -16,6 +16,16 @@ namespace LeetCodePuzzles.Helpers.Assert
             throw new Exception($"Numbers are not equal. Expected: {expected}, Actual: {actual}");
         }
 
+        public static bool AreEqual(string expected, string actual)
+        {
+            if (expected.Equals(actual))
+            {
+                return true;
+            }
+
+            throw new Exception($"Strings are not equal. Expected: {expected}, Actual: {actual}");
+        }
+
         public static bool IsTrue(bool condition)
         {
             if (condition)
