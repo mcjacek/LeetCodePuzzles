@@ -11,7 +11,8 @@ namespace LeetCodePuzzles
             //var question = new TwoSum();
             //var question = new PalindromeNumber();
             //var question = new RomanToInteger();
-            var question = new LongestCommonPrefixQuestion();
+            //var question = new LongestCommonPrefixQuestion();
+            var question = new ValidParentheses();
             question.Run();
         }
     }
