@@ -13,7 +13,8 @@ namespace LeetCodePuzzles
             //var question = new RomanToInteger();
             //var question = new LongestCommonPrefixQuestion();
             //var question = new ValidParentheses();
-            var question = new MergeTwoSortedLists();
+            //var question = new MergeTwoSortedLists();
+            var question = new RemoveDuplicatesFromSortedArray();
             question.Run();
         }
     }
