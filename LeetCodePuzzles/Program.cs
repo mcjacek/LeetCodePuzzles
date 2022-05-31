@@ -14,7 +14,8 @@ namespace LeetCodePuzzles
             //var question = new LongestCommonPrefixQuestion();
             //var question = new ValidParentheses();
             //var question = new MergeTwoSortedLists();
-            var question = new RemoveDuplicatesFromSortedArray();
+            //var question = new RemoveDuplicatesFromSortedArray();
+            var question = new RemoveElement();
             question.Run();
         }
     }
