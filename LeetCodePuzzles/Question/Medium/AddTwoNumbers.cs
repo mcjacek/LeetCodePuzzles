@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using System.Text;
 
-namespace LeetCodePuzzles.Question.EasyWarmUp.Medium
+namespace LeetCodePuzzles.Question.Medium
 {
     public class ListNode
     {

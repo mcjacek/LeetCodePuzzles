@@ -1,6 +1,7 @@
 ﻿using LeetCodePuzzles.Question;
 using LeetCodePuzzles.Question.EasyWarmUp;
-using LeetCodePuzzles.Question.EasyWarmUp.Medium;
+using LeetCodePuzzles.Question.Medium;
+using LeetCodePuzzles.Question.Hard;
 using System;
 
 namespace LeetCodePuzzles
@@ -17,7 +18,8 @@ namespace LeetCodePuzzles
             //var question = new MergeTwoSortedLists();
             //var question = new RemoveDuplicatesFromSortedArray();
             //var question = new RemoveElement();
-            var question = new AddTwoNumbers();
+            //var question = new AddTwoNumbers();
+            var question = new SudokuSolver();
             question.Run();
         }
     }
