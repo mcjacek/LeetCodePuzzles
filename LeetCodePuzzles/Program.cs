@@ -27,7 +27,8 @@ namespace LeetCodePuzzles
 
             //Knowledge
                 //Binary Search
-                var question = new _1_BinarySearch();
+                //var question = new _1_BinarySearch();
+                var question = new _2_Sqrt();
             question.Run();
         }
     }

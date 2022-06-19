@@ -63,7 +63,7 @@ namespace LeetCodePuzzles.Knowledge.Binary_Search
                     right = mid - 1;
                 }
             }
-
+            
             return -1;
         }
     }
