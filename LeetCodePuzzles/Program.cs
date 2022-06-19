@@ -19,7 +19,8 @@ namespace LeetCodePuzzles
             //var question = new RemoveDuplicatesFromSortedArray();
             //var question = new RemoveElement();
             //var question = new AddTwoNumbers();
-            var question = new SudokuSolver();
+            //var question = new SudokuSolver();
+            var question = new LongestSubstringWithoutRepeatingCharacters();
             question.Run();
         }
     }
