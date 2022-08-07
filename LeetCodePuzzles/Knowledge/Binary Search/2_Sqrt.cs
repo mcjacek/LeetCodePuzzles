@@ -53,6 +53,7 @@ namespace LeetCodePuzzles.Knowledge.Binary_Search
                 int mid = left + (right - left) / 2;
 
                 if(mid == x / mid) // Not multiplying as the product for a large number may be greater than the max value of int
+                                   // x == mid * mid
                 {
                     return mid;
                 }
